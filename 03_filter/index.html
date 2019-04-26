@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            padding: 5px;
+            margin-bottom: 2px;
+            /* 设置所有的div是0.1的透明度，当然中间的盒子颜色是最深的 */
+            background: rgba(0, 0, 0, 0.1);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="grandpa">
+        <div class="pa">
+            <div id="child1" class="child not-gay"></div>
+            <div id="child2" class="child"></div>
+            <div id="child3" class="child"></div>
+        </div>
+    </div>
+    <script src="..\lib\jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
