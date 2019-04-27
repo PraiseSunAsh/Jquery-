@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #card{
+        background-color: #eee;
+        padding: 20px;
+        margin: 10px 0;
+        display: none;
+    }
+    #card.active{
+        background: #555;
+        color: #fff;
+    }
+    #card-trigger{
+        display: inline-block;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+    <button id="card-trigger">显示/隐藏公告</button>
+    <div id="card">
+        <h1>公告</h1>
+        <p>Forty-four Americans have now taken the presidential oath. The words have been spoken during rising tides of prosperity and the still waters of peace. Yet, every so often the oath is taken amidst gathering clouds and raging storms. At these moments, America has carried on not simply because of the skill or vision of those in high office, but because We the People have remained faithful to the ideals of our forbearers, and true to our founding documents.</p>
+    </div>
+
+    <script src="..\lib\jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
