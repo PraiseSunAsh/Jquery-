@@ -17,11 +17,12 @@
         <div class="form">
             <form>
                 <div class="input-wrap">
-                    <label>姓名</label>
-                    <input date-rule='pattern:"^[a-z0-9]$"|min:18|maxlength:10|minlength:2|nullable:false|numeric:false' type="text" class="input-control'>
-                    <div class="input-error">
-                        姓名格式有误
-                    </div>
+                    <label>XXX</label>
+                    <input date-rule='max:10|min:2'
+                           id="test"
+                           type="text"
+                           class="input-control" >
+                    <div class="input-error">姓名格式有误</div>
                 </div>
             </form>
         </div>
@@ -29,6 +30,7 @@
     
     <script src="../../lib/jquery.js"></script>
     <script src="js/validator.js"></script>
+    <script src="js/input.js"></script>
     <!-- PS：库文件要放到js文件的前面 -->
     <script src="js/main.js"></script>
 </body>
